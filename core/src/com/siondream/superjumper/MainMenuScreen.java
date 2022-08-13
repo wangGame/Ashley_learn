@@ -34,7 +34,6 @@ public class MainMenuScreen extends ScreenAdapter {
 
 	public MainMenuScreen (SuperJumper game) {
 		this.game = game;
-
 		guiCam = new OrthographicCamera(320, 480);
 		guiCam.position.set(320 / 2, 480 / 2, 0);
 		soundBounds = new Rectangle(0, 0, 64, 64);
